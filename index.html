@@ -1,0 +1,59 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109858772-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109858772-1');
+    </script>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="viewport" content="width=device-width" />
+  <title>Dylan Kite: Music Project</title>
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:300" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>The Music Project</h1> 
+  <div id="mobileMenu">
+    <p>+</p>
+  </div> 
+</header>
+<aside>
+  <h2>The History</h2>
+  <p>Starting in 2015, as part of an ongoing resolution, I listened to a new album every other week. These are the albums I listened to in my first year. See my ratings and listen to each album's top tracks.</p>
+  <a href="../">Return to dylankite.com</a>
+</aside>
+<main>
+  <div id="utility">
+
+  <select id="sortBy" name="sortBy">
+    <option value="artistAZ">Artist (A-Z)</option>
+    <option value="artistZA">Artist (Z-A)</option>
+    <option value="albumAZ">Album (A-Z)</option>
+    <option value="albumZA">Album (Z-A)</option>
+    <option value="ratingHighLow">Rating (high-low)</option>
+    <option value="ratingLowHigh">Rating (low-high)</option>
+  </select>
+      
+  <button type="button" id="sortButton">sort</button>
+  <button type="button" id="filterButton">filter</button>
+  <div id="triangleUp"></div>
+  <input type="text" id="searchTerm">
+  <button type="button" id="searchButton">search</button>
+</div>
+  <div id="holder">
+  </div>
+</main>
+<script src="https://use.fontawesome.com/85e3fac585.js"></script>
+<script src="musicproject.js"></script>
+</body>
+</html>
